@@ -3,7 +3,8 @@
 static s32 sCapSaveFlags[] = {
     SAVE_FLAG_HAVE_WING_CAP,
     SAVE_FLAG_HAVE_METAL_CAP,
-    SAVE_FLAG_HAVE_VANISH_CAP
+    SAVE_FLAG_HAVE_VANISH_CAP,
+    SAVE_FLAG_YELLOW_SWITCH_ACTIVE
 };
 
 void cap_switch_act_init(void) {
