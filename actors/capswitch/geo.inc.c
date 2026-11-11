@@ -9,7 +9,6 @@ const GeoLayout cap_switch_geo[] = {
          GEO_DISPLAY_LIST(LAYER_OPAQUE, capswitch_seg5_dl_05003370),
          GEO_DISPLAY_LIST(LAYER_OPAQUE, capswitch_seg5_dl_05003390),
          GEO_DISPLAY_LIST(LAYER_OPAQUE, capswitch_seg5_dl_050033B0),
-         GEO_DISPLAY_LIST(LAYER_OPAQUE, capswitch_seg5_dl_purple_switch),
          
       GEO_CLOSE_NODE(),
    GEO_CLOSE_NODE(),

@@ -17,7 +17,7 @@
     #define EEPROM_SIZE 0x200
 #endif
 
-#define NUM_SAVE_FILES 4
+#define NUM_SAVE_FILES 3
 
 struct SaveBlockSignature {
     u16 magic;
@@ -132,8 +132,7 @@ enum SaveProgressFlags {
     SAVE_FLAG_COLLECTED_TOAD_STAR_3  = (1 << 26), /* 0x04000000 */
     SAVE_FLAG_COLLECTED_MIPS_STAR_1  = (1 << 27), /* 0x08000000 */
     SAVE_FLAG_COLLECTED_MIPS_STAR_2  = (1 << 28), /* 0x10000000 */
-    SAVE_FLAG_YELLOW_SWITCH_ACTIVE   = (0 << 29),
-    SAVE_FLAG_BONUS_SWITCH_ACTIVE    = (0 << 30)
+    SAVE_FLAG_YELLOW_SWITCH_ACTIVE   = (1 << 29),
 };
 
 enum StarFlags {

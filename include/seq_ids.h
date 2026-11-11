@@ -52,6 +52,7 @@ enum SeqId {
     SEQ_BLUEBERRY_LOBBY,  // 0x27
     SEQ_THE_BELLFRY,  // 0x28
     SEQ_YELLOW_SWITCH_PALACE,  // 0x29
+    SEQ_STELLAR_LOBBY,  // 0x2A
     SEQ_COUNT,
 };
 

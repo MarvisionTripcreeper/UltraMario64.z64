@@ -14,7 +14,6 @@ extern const Gfx capswitch_seg5_dl_05003350[];
 extern const Gfx capswitch_seg5_dl_05003370[];
 extern const Gfx capswitch_seg5_dl_05003390[];
 extern const Gfx capswitch_seg5_dl_050033B0[];
-extern const Gfx capswitch_seg5_dl_purple_switch[];
 extern const Collision capswitch_collision_050033D0[];
 extern const Collision capswitch_collision_05003448[];
 
