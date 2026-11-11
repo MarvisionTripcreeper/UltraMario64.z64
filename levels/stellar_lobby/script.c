@@ -27,8 +27,8 @@ const LevelScript level_stellar_lobby_entry[] = {
 
 	AREA(1, stellar_lobby_area_1),
 		WARP_NODE(10, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
-		MARIO_POS(0x01, 0, -852, 359, 457),
-		OBJECT(MODEL_NONE, -895, 698, 366, 0, 0, 0, (10 << 16), bhvSpinAirborneWarp),
+		MARIO_POS(0x01, 0, -771, 320, 400),
+		OBJECT(MODEL_NONE, -809, 618, 321, 0, 0, 0, (10 << 16), bhvSpinAirborneWarp),
 		TERRAIN(stellar_lobby_area_1_collision),
 		MACRO_OBJECTS(stellar_lobby_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_STELLAR_LOBBY),
@@ -37,7 +37,7 @@ const LevelScript level_stellar_lobby_entry[] = {
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, 0, -852, 359, 457),
+	MARIO_POS(0x01, 0, -771, 320, 400),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),
