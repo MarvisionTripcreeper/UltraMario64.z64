@@ -32,9 +32,10 @@ const LevelScript level_yellow_switch_palace_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, yellow_switch_palace_area_1),
-		MARIO_POS(0x01, 0, 0, 264, -2151),
-		OBJECT(MODEL_NONE, 0, 264, -2336, 0, 0, 0, 0x00000000, bhvSpinAirborneWarp),
-		OBJECT(MODEL_CAP_SWITCH, 0, 34, 4496, 0, 0, 0, (4 << 16), bhvCapSwitch),
+		WARP_NODE(10, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
+		MARIO_POS(0x01, -180, 0, 264, -2151),
+		OBJECT(MODEL_NONE, 0, 264, -5386, 0, 180, 0, (10 << 16), bhvAirborneWarp),
+		OBJECT(MODEL_CAP_SWITCH, 0, 34, 4496, 0, 0, 0, (3 << 16), bhvCapSwitch),
 		TERRAIN(yellow_switch_palace_area_1_collision),
 		MACRO_OBJECTS(yellow_switch_palace_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_YELLOW_SWITCH_PALACE),
@@ -43,7 +44,7 @@ const LevelScript level_yellow_switch_palace_entry[] = {
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, 0, 0, 264, -2151),
+	MARIO_POS(0x01, -180, 0, 264, -2151),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),

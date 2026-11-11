@@ -1391,6 +1391,7 @@ s32 lvl_set_current_level(UNUSED s16 initOrUpdate, s32 levelNum) {
     if (gCurrCourseNum > COURSE_STAGES_MAX || warpCheckpointActive) {
         return FALSE;
     }
+	if (gCurrLevelNum == LEVEL_YELLOW_SWITCH_PALACE) return 0;
 
     return !gDebugLevelSelect;
 }

@@ -215,3 +215,10 @@ const Gfx capswitch_seg5_dl_050033B0[] = {
     gsSPDisplayList(capswitch_seg5_dl_05003280),
     gsSPEndDisplayList(),
 };
+
+const Gfx capswitch_seg5_dl_purple_switch[] = {
+    gsSPLightColor(LIGHT_1, 0x8800ffff),
+    gsSPLightColor(LIGHT_2, 0x3f2588ff),
+    gsSPDisplayList(capswitch_seg5_dl_05003280),
+    gsSPEndDisplayList(),
+};
